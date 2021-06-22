@@ -17,7 +17,6 @@ function App() {
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">GitHub</Link>
-                <Link to="/contact">Contacts</Link>
             </Navigation>
         </Header>
         <Drawer title="Contents">
@@ -25,7 +24,6 @@ function App() {
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">GitHub</Link>
-                <Link to="/contact">Contacts</Link>
             </Navigation>
         </Drawer>
         <Content>
