@@ -4,11 +4,15 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 
+
+
 function App() {
+  const title = 'Kyle Kriskovich'
   return (
+    
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-colour" transparent title="Kyle Kriskovich" style={{color: 'white'}} scroll>
+        <Header className="header-colour" title={<Link className="title-link" to='/'>{title}</Link>} style={{color: 'white'}} scroll>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/resume">Resume</Link>

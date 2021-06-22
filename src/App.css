@@ -65,3 +65,19 @@
     
 }
 
+.project-grid{
+    display: flex;
+    
+}
+
+.resume-col{
+    background: #2C3E50 ;
+    color: white;
+    
+}
+
+.title-link{
+    color: white;
+    text-decoration: none;
+}
+
