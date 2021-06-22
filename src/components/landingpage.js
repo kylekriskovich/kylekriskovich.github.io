@@ -22,7 +22,7 @@ class Landing extends Component {
                             </a>
 
                             {/* GitHub Profile */}
-                            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/kylekriskovich" target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-github" aria-hidden="true"></i>
                             </a>
 
